@@ -1,0 +1,93 @@
+.logo-instagram{
+    /* padding-top: 0;
+    justify-content: center;
+    text-align: center; */
+    border-radius: 120px;
+    color: #fff;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    /* box-shadow: 0px 3px 10px rgba(0,0,0,.25); */
+}
+.logo-instagram:hover{
+    /* text-align: center;
+    /* border-radius: 120px; */
+    color: #fff;
+    /* vertical-align: middle; */
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.main-cont{
+    margin: 80px 100px 150px 100px;
+}
+.col-main h1{
+    font-size: 70px;
+    font-family: 'Fredoka One', cursive ;
+    text-align: start;
+}
+
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 0px 0px var(--color-white);
+}
+
+.me img{
+    width: 300px;
+    margin-left: 270px;
+}
+
+.col-main{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: start;
+}
+
+button{
+    margin: 5px;
+}
+.header_sosmed{
+margin-top: 20px;
+}
+.header_sosmed a{
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .main-cont{
+        height: 70vh;
+        margin-top: 30%;
+    }
+    .me img{
+        width: 250px;
+        margin-left: 0px;
+    }
+    .col-main h1{
+        font-size: 50px;
+        font-family: 'Fredoka One', cursive; ;
+        text-align: center;
+        margin: 40px 0;
+    }
+    .col-main{
+        font-family:  'Fredoka One', cursive;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .cta {
+        margin-top: 2.5rem;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+}
+
+.cta {
+    display: flex;
+    gap: 2rem;
+}
+
+.cta a{
+    border: 1px solid #0D6EFD;
+}

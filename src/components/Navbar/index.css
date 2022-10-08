@@ -1,0 +1,34 @@
+.navigasi{
+    width: fit-content;
+    border-radius: 50px;
+    opacity: 60%;
+    background-color: black;
+}
+
+.navigasi:hover{
+    opacity: 100%;
+    width: max-content;
+}
+
+Nav{
+    font-size: 25px;
+    margin: 5px 15px;
+}
+
+nav:hover{
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .nav:hover{
+        opacity: 100%;
+        width: max-content;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigasi:hover{
+        opacity: 100%;
+        width: max-content;
+    }
+}
