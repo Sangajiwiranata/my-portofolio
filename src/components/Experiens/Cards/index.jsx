@@ -19,7 +19,6 @@ const Cards = () => {
                             <Button variant="light"><BsGithub /></Button>
                         </Card.Body>
                     </Card>
-
                 )
             })}
         </div>

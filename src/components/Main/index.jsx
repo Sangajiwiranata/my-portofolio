@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import '../Main/index.css'
 import me from '../images/photo.png'
-import Typical from 'react-typical'
+import TypeWriterEffect from 'react-typewriter-effect';
 import HeaderSosmed from './HeaderSosmed'
 
 const Main = () => {
@@ -20,7 +20,25 @@ const Main = () => {
                     <Col className='col-main'>
                         <h1>Sangaji Wiranata</h1>
                         <h2>
-                            <Typical loop={Infinity} steps={['Fullstack Web Developer', 2000, 'MERN Stack Dev', 2000, 'Junior Web Developer', 2000]} />
+                            <TypeWriterEffect
+                                textStyle={{
+                                    fontFamily: 'Red Hat Display',
+                                    color: '#3F3D56',
+                                    fontWeight: 500,
+                                    fontSize: '1em',
+                                }}
+                                loop={true}
+                                startDelay={0}
+                                cursorColor="#3F3D56"
+                                multiText={[
+                                    'Fullstack Web Developer',
+                                    'MERN Stack Dev',
+                                    'Junior Web Developer'
+                                ]}
+                                multiTextDelay={1500}
+                                typeSpeed={30}
+                                multiTextLoop
+                            />
                         </h2>
                         <HeaderSosmed />
                     </Col>
