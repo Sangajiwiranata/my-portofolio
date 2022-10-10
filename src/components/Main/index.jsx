@@ -5,6 +5,7 @@ import me from '../images/photo.png'
 import TypeWriterEffect from 'react-typewriter-effect';
 import HeaderSosmed from './HeaderSosmed'
 
+
 const Main = () => {
     return (
         <div>

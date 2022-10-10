@@ -5,6 +5,7 @@ import Experiens from './Experiens'
 import Footer from './Footer'
 import Main from './Main'
 import Nav from './nav/Nav'
+import Skills from './Skills'
 // import { Navbar } from 'react-bootstrap'
 // import Navigations from './Navbar'
 
@@ -14,6 +15,7 @@ const Homes = () => {
             <Main />
             <Nav />
             <About />
+            <Skills />
             <Experiens />
             <Contact />
             <Footer />
