@@ -13,13 +13,16 @@ import 'swiper/css/scrollbar';
 // import Cards from '../Experiens/Cards';
 import { Container } from 'react-bootstrap';
 import { skill } from './skill';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 
 
 const Skills = () => {
     return (
         <div>
-            <Container className='mt-5 mb-5'>
+            <Container className='mt-5 mb-5' data-aos="fade-down" data-aos-duration="1500" >
                 <h1 style={{ margin: '40px' }}>SKILLS</h1>
                 <Swiper
                     modules={[FreeMode, Navigation]}
@@ -44,9 +47,10 @@ const Skills = () => {
                 // onSlideChange={() => console.log('slide change')}
                 // onSwiper={(swiper) => console.log(swiper)}
                 >
+
                     {skill.map((item, index) => {
                         return (
-                            <SwiperSlide key={index}>
+                            <SwiperSlide key={index} >
                                 <img src={item.image} alt="" height={'100px'} />
                                 <h4 style={{ marginTop: '20px' }}>{item.name}</h4>
                             </SwiperSlide>

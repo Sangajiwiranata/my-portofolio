@@ -1,11 +1,15 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
 import '../About/index.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const About = () => {
     return (
         <div>
-            <Container className='container_main'>
+            <Container className='container_main' data-aos="fade-down" data-aos-duration="1500">
+                <h5>Get To Know</h5>
                 <h1 className='title'>About me</h1>
                 <p className='aboutme'>
                     <strong>
