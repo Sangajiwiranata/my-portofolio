@@ -3,7 +3,7 @@ import React from 'react'
 // import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { FreeMode, Navigation, Pagination } from 'swiper';
+import { FreeMode, Navigation } from 'swiper';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -14,18 +14,19 @@ import 'swiper/css/scrollbar';
 import { Container } from 'react-bootstrap';
 import { skill } from './skill';
 
+
+
 const Skills = () => {
     return (
         <div>
             <Container className='mt-5 mb-5'>
                 <h1 style={{ margin: '40px' }}>SKILLS</h1>
                 <Swiper
-                    modules={[FreeMode, Navigation, Pagination]}
+                    modules={[FreeMode, Navigation]}
                     freeMode={true}
                     grabCursor={true}
                     className='mySwiper'
                     navigation
-                    pagination={{ clickable: true }}
                     breakpoints={{
                         0: {
                             slidesPerView: 2,
