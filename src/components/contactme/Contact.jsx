@@ -30,36 +30,6 @@ const Contactme = () => {
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
-      {/* <div className="container contact_container">
-        <div className="contact_options">
-          <article className="contact_option">
-            <MdOutlineEmail className="contact_option-icon" />
-            <h4>Email</h4>
-            <h5>dinianjelina12@gmail.com</h5>
-            <a href="mailto:dinianjelina12@gmail.com" target="_blank" rel="noreferrer">
-              Send a message
-            </a>
-          </article>
-
-          <article className="contact_option">
-            <FaFacebookMessenger className="contact_option-icon" />
-            <h4>Messenger</h4>
-            <h5>Dini Anjelina</h5>
-            <a href="https://m.me/dini.anjelina.794" target="_blank" rel="noreferrer">
-              Send a message
-            </a>
-          </article>
-
-          <article className="contact_option">
-            <BsWhatsapp className="contact_option-icon" />
-            <h4>WhatsApp</h4>
-            <h5>081272247620</h5>
-            <a href="https://api.whatsapp.com/send?phone=081272247620" target="_blank" rel="noreferrer">
-              Send a message
-            </a>
-          </article>
-        </div> */}
-
       <div className="contact_form">
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Masukkan nama" required />
@@ -70,7 +40,6 @@ const Contactme = () => {
           </button>
         </form>
       </div>
-      {/* </div> */}
     </section >
   );
 };

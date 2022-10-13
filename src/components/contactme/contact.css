@@ -87,4 +87,8 @@ button {
   .contact_container {
     width: var(--container-width-sm);
   }
+  #contact{
+    width: 100%;
+    border-radius: 0;
+  }
 }
