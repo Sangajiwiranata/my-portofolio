@@ -1,9 +1,5 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import { MdOutlineEmail } from 'react-icons/md';
-import { FaFacebookMessenger } from 'react-icons/fa';
-import { BsWhatsapp } from 'react-icons/bs';
-// import emailjs from 'emailjs-com';
 import emailjs from '@emailjs/browser';
 
 const Contactme = () => {
@@ -32,7 +28,7 @@ const Contactme = () => {
 
       <div className="contact_form">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="Masukkan nama" required />
+          <input type="text" name="name" placeholder="Masukkan Nama" required />
           <input type="email" name="email" placeholder="Masukkan email" required />
           <textarea name="message" rows="7" placeholder="Masukkan pesan" required></textarea>
           <button type="submit" className="btn btn-primary">
