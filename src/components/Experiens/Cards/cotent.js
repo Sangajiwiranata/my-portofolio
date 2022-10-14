@@ -1,12 +1,12 @@
 export const contens = [
     {
         name: 'POS Front-End',
-        image: 'https://www.trio.dev/hubfs/project-management.webp',
+        image: 'https://res.cloudinary.com/dku390nxh/image/upload/v1665749320/POS-Font-end_cbp1np.png',
         github: 'https://www.trio.dev/hubfs/project-management.webp'
     },
     {
-        name: 'POS Front-End',
-        image: 'https://www.trio.dev/hubfs/project-management.webp',
+        name: 'POS Back-End',
+        image: 'https://res.cloudinary.com/dku390nxh/image/upload/v1665749320/POS-back-end_p4imai.png',
         github: 'https://www.trio.dev/hubfs/project-management.webp'
     },
     {
