@@ -1,20 +1,13 @@
-import React, { useEffect, useState } from 'react'
-import About from './About'
-// import Contact from './Contact'
-// import Experiens from './Experiens'
-// import Footer from './Footer'
-import Main from './Main'
-import Nav from './nav/Nav'
-import Skills from './Skills'
+import React, { useEffect, useState } from 'react';
+import About from './About';
+import Experiens from './Experiens';
+import Main from './Main';
+import Nav from './nav/Nav';
+import Skills from './Skills';
 import ReactLoading from 'react-loading';
-import { Container } from 'react-bootstrap'
-import Experience from './experience/Experience'
-import Contactme from './contactme/Contact'
-import Footer from './footer/Footer'
-// import { Container } from 'react-bootstrap'
-// import { Navbar } from 'react-bootstrap'
-// import Navigations from './Navbar'
-
+import { Container } from 'react-bootstrap';
+import Contactme from './contactme/Contact';
+import Footer from './footer/Footer';
 
 
 const Homes = () => {
@@ -39,7 +32,7 @@ const Homes = () => {
                         <Nav />
                         <About />
                         <Skills />
-                        <Experience />
+                        <Experiens />
                         <Contactme />
                         <Footer />
                     </div>

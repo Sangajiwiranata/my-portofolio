@@ -1,0 +1,17 @@
+.imge{
+    border-radius: 2rem;
+    margin: 20px auto;
+}
+
+.card-container:hover{
+    border: 1px solid black;
+}
+.card-container{
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 5rem;
+}
+
+Button{
+    width: fit-content;
+}
