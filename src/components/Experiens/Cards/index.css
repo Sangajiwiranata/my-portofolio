@@ -15,3 +15,12 @@
 Button{
     width: fit-content;
 }
+
+@media screen and (max-width: 1024px) {
+    .imge{
+        margin: 0 auto;
+    }
+    .card-container{
+        padding: 0;
+    }
+}

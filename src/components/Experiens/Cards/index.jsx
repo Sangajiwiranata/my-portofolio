@@ -15,7 +15,6 @@ const Cards = () => {
                             <Card.Header as="h3">{item.name}</Card.Header>
                             <Card.Body>
                                 <Card.Img className='imge' variant='top' src={item.image} />
-                                <Card.Title>Special title treatment</Card.Title>
                                 <Card.Text>
                                     With supporting text below as a natural lead-in to additional content.
                                 </Card.Text>
