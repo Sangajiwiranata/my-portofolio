@@ -2,13 +2,14 @@ import React from 'react'
 import { Container } from 'react-bootstrap';
 import '../About/index.css'
 import AOS from 'aos';
+import CV from '../images/Sangaji_CV.pdf'
 import 'aos/dist/aos.css';
 AOS.init();
 
 const About = () => {
     return (
         <div>
-            <Container className='container_main' data-aos="fade-down" data-aos-duration="1500">
+            <Container className='container_main' data-aos="fade-down" data-aos-duration="1500" id='about'>
                 <h5>Get To Know</h5>
                 <h1 className='title'>About me</h1>
                 <p className='aboutme'>
@@ -17,7 +18,7 @@ const About = () => {
                     </strong>
                 </p>
                 <div className="cta">
-                    <a href='#about' download className="btn btn-more">
+                    <a href={CV} download className="btn btn-more">
                         Download CV
                     </a>
                     <a href="#contact" className="btn btn-primary btn-more">

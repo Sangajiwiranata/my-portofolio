@@ -15,9 +15,6 @@ const Cards = () => {
                             <Card.Header as="h3">{item.name}</Card.Header>
                             <Card.Body>
                                 <Card.Img className='imge' variant='top' src={item.image} />
-                                <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
-                                </Card.Text>
                             </Card.Body>
                         </div>
                         <Button variant="light" size="lg" className='w-auto m-auto'><BsGithub /></Button>

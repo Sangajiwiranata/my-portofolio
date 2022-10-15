@@ -22,7 +22,7 @@ AOS.init();
 const Skills = () => {
     return (
         <div>
-            <Container className='mt-5 mb-5' data-aos="fade-down" data-aos-duration="1500" >
+            <Container className='mt-5 mb-5' data-aos="fade-down" data-aos-duration="1500" id='skills'>
                 <h1 style={{ margin: '40px' }}>SKILLS</h1>
                 <Swiper
                     modules={[FreeMode, Navigation]}
