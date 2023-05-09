@@ -35,5 +35,13 @@ export const skill = [
         name: 'MongoDB',
         image: 'https://cdn.cdnlogo.com/logos/m/30/mongodb-icon.svg'
     },
+    {
+        name: 'PostgreSQL',
+        image: 'https://cdn.icon-icons.com/icons2/2699/PNG/512/postgresql_vertical_logo_icon_168900.png'
+    },
+    {
+        name: 'VB.Net',
+        image: 'https://cdn.hackr.io/uploads/topics/1485602278HC6ehBKO8j.png'
+    }
 
 ]

@@ -13,5 +13,10 @@ export const contens = [
         name: 'MyFirst Portofolio',
         image: 'https://res.cloudinary.com/dku390nxh/image/upload/v1665746445/Myportofolio_tf0xoq.png',
         github: 'https://github.com/Sangajiwiranata/my-portofolio'
+    },
+    {
+        name: 'App Finance & Store',
+        image: 'https://res.cloudinary.com/dr9t5onwc/image/upload/v1683607050/downloadakurapp_yexhfs.png',
+        github: 'https://github.com/Sangajiwiranata/ManagementInventory'
     }
 ]
