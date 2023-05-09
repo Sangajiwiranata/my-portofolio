@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Card } from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 import { BsGithub } from 'react-icons/bs'
 import { contens } from './cotent'
 import '../Cards/index.css'
@@ -16,8 +16,10 @@ const Cards = () => {
                             <Card.Body>
                                 <Card.Img className='imge' variant='top' src={item.image} />
                             </Card.Body>
+                            <a href={item.github} target="_blank" rel="noreferrer" style={{ color: 'black', fontSize: '24px' }}>
+                                <BsGithub />
+                            </a>
                         </div>
-                        <Button variant="light" size="lg" className='w-auto m-auto'><BsGithub /></Button>
                     </Card>
                 )
             })}
